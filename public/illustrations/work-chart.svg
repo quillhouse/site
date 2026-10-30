@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="Georgia, serif">
+  <rect width="640" height="300" fill="#fff" stroke="#e2d7c5" rx="10"/>
+  <text x="40" y="44" font-size="18" fill="#1f1b16">Win rate on Ledgerline deals</text>
+  <line x1="60" y1="250" x2="600" y2="250" stroke="#cdbfa8" stroke-width="2"/>
+  <rect x="150" y="118" width="120" height="132" fill="#cdbfa8"/>
+  <rect x="370" y="68" width="120" height="182" fill="#8a3b2a"/>
+  <text x="210" y="108" font-size="22" text-anchor="middle" fill="#1f1b16">21%</text>
+  <text x="430" y="58" font-size="22" text-anchor="middle" fill="#1f1b16">29%</text>
+  <text x="210" y="276" font-size="14" text-anchor="middle" fill="#5c544a">No case study attached</text>
+  <text x="430" y="276" font-size="14" text-anchor="middle" fill="#5c544a">Case study attached</text>
+</svg>
