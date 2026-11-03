@@ -23,6 +23,11 @@ export function SiteFooter() {
 					<Link to="/pricing">Retainers &amp; pricing</Link>
 				</div>
 				<div>
+					<span className="site-footer__heading">Who we write for</span>
+					<Link to="/solutions/software-companies">Software companies</Link>
+					<Link to="/solutions/services-companies">Services companies</Link>
+				</div>
+				<div>
 					<span className="site-footer__heading">Studio</span>
 					<Link to="/team">Team</Link>
 					<Link to="/insights">Insights</Link>
