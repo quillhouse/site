@@ -1,7 +1,7 @@
 import { SITE_URL } from "../lib/site";
 import { getPosts } from "../lib/posts.server";
 
-const PAGES = ["/", "/services", "/work", "/team", "/pricing", "/insights", "/contact"];
+const PAGES = ["/", "/services", "/work", "/team", "/pricing", "/solutions/software-companies", "/solutions/services-companies", "/insights", "/contact"];
 
 export async function loader() {
 	const posts = await getPosts();
