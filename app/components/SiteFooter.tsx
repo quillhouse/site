@@ -26,6 +26,7 @@ export function SiteFooter() {
 					<span className="site-footer__heading">Studio</span>
 					<Link to="/team">Team</Link>
 					<Link to="/insights">Insights</Link>
+					<Link to="/glossary">Glossary</Link>
 					<Link to="/contact">Contact</Link>
 				</div>
 			</div>

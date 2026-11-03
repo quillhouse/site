@@ -13,6 +13,8 @@ async function routes(): Promise<RouteConfig> {
 		route("insights", "routes/insights.tsx"),
 		// Post pages are prerendered from Contentful; with no posts there is nothing to render.
 		...(slugs.length > 0 ? [route("insights/:slug", "routes/insights.post.tsx")] : []),
+		route("glossary", "routes/glossary.tsx"),
+		route("glossary/:slug", "routes/glossary.term.tsx"),
 		route("contact", "routes/contact.tsx"),
 		route("sitemap.xml", "routes/sitemap.ts"),
 	];
