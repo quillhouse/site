@@ -15,6 +15,7 @@ async function routes(): Promise<RouteConfig> {
 		...(slugs.length > 0 ? [route("insights/:slug", "routes/insights.post.tsx")] : []),
 		route("contact", "routes/contact.tsx"),
 		route("sitemap.xml", "routes/sitemap.ts"),
+		route("llms.txt", "routes/llms.ts"),
 	];
 }
 

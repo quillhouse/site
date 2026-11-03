@@ -1,12 +1,10 @@
-import { SITE_URL } from "../lib/site";
+import { PAGES, SITE_URL } from "../lib/site";
 import { getPosts } from "../lib/posts.server";
-
-const PAGES = ["/", "/services", "/work", "/team", "/pricing", "/insights", "/contact"];
 
 export async function loader() {
 	const posts = await getPosts();
 	const urls = [
-		...PAGES.map((path) => `  <url><loc>${SITE_URL}${path}</loc></url>`),
+		...PAGES.map(({ path }) => `  <url><loc>${SITE_URL}${path}</loc></url>`),
 		...posts.map(
 			(p) =>
 				`  <url><loc>${SITE_URL}/insights/${p.slug}</loc><lastmod>${p.publishedDate.slice(0, 10)}</lastmod></url>`,
