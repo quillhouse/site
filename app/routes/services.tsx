@@ -81,9 +81,7 @@ export default function Services() {
 					</li>
 				</ol>
 				<p>
-					Curious how we prepare for interviews?{" "}
-					<Link to="/process">Read about our editorial process</Link>, or see{" "}
-					<Link to="/pricing">what it costs</Link>.
+					Ready to plan a project? See <Link to="/pricing">what it costs</Link>.
 				</p>
 			</section>
 		</>
