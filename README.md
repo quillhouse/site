@@ -78,7 +78,8 @@ description from the Contentful entry's `title` and `metaDescription` fields.
 ### Adding a page
 
 Add a module under `app/routes/`, register it in `app/routes.ts`, and add its path to `PAGES` in
-`app/routes/sitemap.ts`. It is prerendered automatically.
+`app/lib/site.ts` (with its kind and a one-line summary). It is prerendered automatically and
+listed in `/sitemap.xml` and `/llms.txt`.
 
 ### Writing an Insights post
 
