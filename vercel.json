@@ -4,5 +4,6 @@
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
   "outputDirectory": "build/client",
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [{ "source": "/process", "destination": "/services", "permanent": true }]
 }
